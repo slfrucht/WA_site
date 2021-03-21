@@ -1,0 +1,17 @@
+{
+  "name": "wa_site",
+  "version": "1.0.0",
+  "description": "Wearable Art site",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Sara Frucht",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "bootstrap-social": "^5.1.1",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}

@@ -1,0 +1,141 @@
+body {
+    padding: 0;
+    background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+}
+.jumbotron {
+    padding: 0;
+    background-image: linear-gradient(to right, #37ddab, #37a0dd,#106b1500);
+    color: white;
+    height: 264px;
+    margin: 0; 
+    z-index: 0;
+}
+nav {
+    background-color:  #34cacf;
+}
+.wa-card-header {
+    background-color:  #34cacf;
+    text-align: center;
+}
+.body-cards {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.select-cards {
+    background-color: #34cacf;
+
+}
+.select_image {
+    width: 100%;
+    height: auto;
+    background-color:#a9d1d3;
+}
+.select-card-header-blah {
+    width: 150px;
+}
+
+.button-text {
+    text-align: center;
+}
+.button-top-text {
+    padding-top: 20px;
+}
+.asterisk {
+    color: #259094;
+    font-size: 20px;
+}
+.site-footer {
+    background-image: linear-gradient( #37a0dd, #37ddab);
+    padding: 20px, 0px; 
+}
+.footer-row {
+    padding-top: 20px; 
+    color: white; 
+}
+
+.footer-row a{
+    color: white; 
+}
+.other-page_header {
+    background-color:   #37a0dd;
+}
+  
+.button-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img-container {
+float:right;
+height: 264px;
+width: 594px;
+margin: 0;
+padding-right: 0;
+right: 0;
+background-color: aqua;
+}
+#top_element {
+    position: absolute;
+    height: 264px;
+    width: 600px;
+    background-image: linear-gradient(to right, #37ddab, #37a0dd,#106b1500);
+    z-index: 10;
+}
+.logo-name {
+    padding-top: 20px;
+    font-family: 'Calligraffitti', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 60px;
+}
+.logo-descrtiption {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    font-family: 'Calligraffitti', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+}
+.logo {
+    filter: invert(100%);
+}
+.top-logo {
+    padding: 20px;
+    width: auto;
+    height: 120px;
+}
+.nav-logo {
+    height:30px;
+    width: auto;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+  
+.top-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 9;
+    opacity: .5;
+    transition:1s;
+
+}
+.bottom-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    z-index:0;
+    transition:1s;
+}
