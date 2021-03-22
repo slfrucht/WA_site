@@ -1,4 +1,5 @@
 $(function () {
+    var currentStyleChoice = -1;
     var currentOpacity = [];
     const numPicts = 6;
     var op = 0;
@@ -23,4 +24,18 @@ $(function () {
         currentOpacity[pictIndex-1] = newOpacity;
 
     }, 1500);
+
+    var btns = document.querySelectorAll(".select-cards");
+    btns.forEach(function(element) {
+    	element.addEventListener("click", function() {
+            element.classList.add("clickedStyle");
+            if(currentStyleChoice !== -1) {
+                currentStyleChoice.classList.remove("clickedStyle");
+            }
+            currentStyleChoice = element;
+            window.location.assign("./select_fabric.html")
+        });
+    });
+
+
 });

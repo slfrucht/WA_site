@@ -14,6 +14,9 @@ body {
 nav {
     background-color:  #34cacf;
 }
+#top_row {
+    margin: 20px;
+}
 .wa-card-header {
     background-color:  #34cacf;
     text-align: center;
@@ -27,10 +30,16 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: 1s;
+}
+.body-cards:hover {
+    filter: brightness(75%);
+}
+.clickedStyle {
+    filter: brightness(50%);
 }
 .select-cards {
     background-color: #34cacf;
-
 }
 .select_image {
     width: 100%;
@@ -67,10 +76,14 @@ nav {
     background-color:   #37a0dd;
 }
   
-.button-image {
+#style-page-btn {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    transition: 1ms;
+}
+#style-page-btn:hover {
+    filter: brightness(75%);
 }
 #img-container {
 float:right;
