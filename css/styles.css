@@ -43,13 +43,9 @@ nav {
 }
 .select_image {
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color:#a9d1d3;
 }
-.select-card-header-blah {
-    width: 150px;
-}
-
 .button-text {
     text-align: center;
 }
@@ -152,3 +148,23 @@ background-color: aqua;
     z-index:0;
     transition:1s;
 }
+#place_fabric_image {
+    width: 300px;
+    height: 300px;
+    z-index:1;
+
+}
+
+#bottom-fabric {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index:-1;
+}
+#place_fabric {
+    float:right;
+    margin-right: 0%;
+    width: 300px;
+    height: 300px;
+}
+
